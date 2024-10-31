@@ -1,0 +1,169 @@
+<html>
+ <head>
+  <title>
+   Sign Up
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <style>
+   body {
+            background-color: #000;
+            color: #fff;
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+            max-width: 400px;
+            width: 100%;
+        }
+        .logo {
+            margin-bottom: 20px;
+        }
+        .logo img {
+            width: 50px;
+        }
+        h1 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .input-group {
+            margin-bottom: 20px;
+        }
+        .input-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-size: 0.9em;
+        }
+        .input-group input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #333;
+            border-radius: 5px;
+            background-color: #121212;
+            color: #fff;
+        }
+        .input-group a {
+            display: block;
+            margin-top: 10px;
+            color: #1db954;
+            text-decoration: none;
+            font-size: 0.9em;
+        }
+        .btn {
+            display: block;
+            width: 100%;
+            padding: 15px;
+            background-color: #1db954;
+            color: #000;
+            border: none;
+            border-radius: 50px;
+            font-size: 1em;
+            cursor: pointer;
+            margin-bottom: 20px;
+        }
+        .divider {
+            display: flex;
+            align-items: center;
+            text-align: center;
+            margin: 20px 0;
+        }
+        .divider::before, .divider::after {
+            content: '';
+            flex: 1;
+            border-bottom: 1px solid #333;
+        }
+        .divider::before {
+            margin-right: .25em;
+        }
+        .divider::after {
+            margin-left: .25em;
+        }
+        .social-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #333;
+            border-radius: 50px;
+            background-color: #121212;
+            color: #fff;
+            text-decoration: none;
+            margin-bottom: 10px;
+            font-size: 0.9em;
+        }
+        .social-btn i {
+            margin-right: 10px;
+        }
+        .footer {
+            font-size: 0.8em;
+            color: #b3b3b3;
+        }
+        .footer a {
+            color: #1db954;
+            text-decoration: none;
+        }
+  </style>
+ </head>
+ <body>
+  <div class="container">
+   <div class="logo">
+    <img alt="Spotify logo" height="50" src="https://storage.googleapis.com/a1aa/image/E4pjfeGdhPgHqkNq7AC6oZYSQKC6XgXatqKPJAAv7kZA4HsTA.jpg" width="50"/>
+   </div>
+   <h1>
+    Se inscreva e comece a curtir
+   </h1>
+   <div class="input-group">
+    <label for="email">
+     Endereço de e-mail
+    </label>
+    <input id="email" placeholder="nome@dominio.com" type="email"/>
+    <a href="#">
+     Usar número de telefone.
+    </a>
+   </div>
+   <button class="btn">
+    Avançar
+   </button>
+   <div class="divider">
+    ou
+   </div>
+   <a class="social-btn" href="#">
+    <i class="fab fa-google">
+    </i>
+    Inscrever-se com o Google
+   </a>
+   <a class="social-btn" href="#">
+    <i class="fab fa-facebook">
+    </i>
+    Inscrever-se com o Facebook
+   </a>
+   <a class="social-btn" href="#">
+    <i class="fab fa-apple">
+    </i>
+    Criar conta com a Apple
+   </a>
+   <div class="footer">
+    Já tem uma conta?
+    <a href="#">
+     Faça login aqui.
+    </a>
+    <p>
+     This site is protected by reCAPTCHA and the Google
+     <a href="#">
+      Privacy Policy
+     </a>
+     and
+     <a href="#">
+      Terms of Service
+     </a>
+     apply.
+    </p>
+   </div>
+  </div>
+ </body>
+</html>
